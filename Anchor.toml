@@ -1,0 +1,12 @@
+[programs.devnet]
+calculatordapp = "HTsFVYZ81meXsJAgeqPZKsXLeCcC8A8GkRLGTAso9m4g"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/abdullah/.config/solana/acc1.json"
+
+[scripts]
+test = "yarn mocha -t 1000000 tests/"
